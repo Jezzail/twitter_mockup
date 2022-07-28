@@ -24,8 +24,7 @@ const Login = ({ providers }: LoginProps) => {
               className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
               onClick={() =>
                 signIn(provider.id, {
-                  callbackUrl:
-                    "https://twitter-mockup.vercel.app/api/auth/callback/google",
+                  callbackUrl: "https://twitter-mockup.vercel.app/",
                 })
               }
             >
