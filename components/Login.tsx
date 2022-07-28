@@ -7,6 +7,8 @@ type LoginProps = {
 };
 
 const Login = ({ providers }: LoginProps) => {
+  if (!providers) return <div>Issue with login</div>;
+
   return (
     <div className="flex flex-col items-center space-y-20 pt-48">
       <Image
