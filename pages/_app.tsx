@@ -9,7 +9,7 @@ import { AuthModalProvider } from "../utils/modalContext";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  if (!pageProps.session) {
+  if (!pageProps.session && pageProps.providers) {
     return <Login providers={pageProps.providers} />;
   }
 
