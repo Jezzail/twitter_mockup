@@ -22,9 +22,6 @@ export const authOptions: NextAuthOptions = {
   theme: {
     colorScheme: "dark",
   },
-  pages: {
-    signIn: "/",
-  },
   callbacks: {
     async session({ session, token }) {
       session.user.tag = session.user
