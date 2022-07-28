@@ -1,20 +1,32 @@
 {
-  "name": "twitter_mockup",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@emoji-mart/data": "^1.0.3",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@next-auth/firebase-adapter": "^1.0.1",
+    "@types/emoji-mart": "^3.0.9",
+    "emoji-mart": "^5.1.0",
+    "firebase": "^9.9.1",
+    "moment": "^2.29.4",
+    "next": "latest",
+    "next-auth": "^4.10.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-moment": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2",
+    "typescript": "4.7.2"
   }
 }
