@@ -25,7 +25,7 @@ const Widgets = ({ trendingResults, followResults }: WidgetsProps) => {
           />
         </div>
       </div>
-      <div className="text-twitter-white space-y-3 bg-[#15181c] pt-2 rounded-xl w-11/12 xl:w-9/12">
+      <div className="text-twitter-white space-y-3 bg-[#15181c] pt-2 rounded-xl w-11/12 xl:w-9/12 min-w-[260px] mr-5">
         <h4 className="font-bold text-xl px-4">What's happening</h4>
         {trendingResults.map((result, index) => (
           <Trending key={index} result={result} />
@@ -35,7 +35,7 @@ const Widgets = ({ trendingResults, followResults }: WidgetsProps) => {
         </button>
       </div>
 
-      <div className="text-twitter-white space-y-3 bg-[#15181c] pt-2 rounded-xl w-11/12 xl:w-9/12">
+      <div className="text-twitter-white space-y-3 bg-[#15181c] pt-2 rounded-xl w-11/12 xl:w-9/12 min-w-[260px] mr-5">
         <h4 className="font-bold text-xl px-4">Who to follow</h4>
         {followResults.map((result, index) => (
           <Follow key={index} result={result} />
